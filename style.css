@@ -8,7 +8,7 @@
     border-radius: 2px;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@ body{
 }
 
 #mid {
-    height: 70px;
+    height: 40px;
     width: 70%;
     background-color: blue;
     display: flex;
@@ -58,7 +58,7 @@ body{
     flex: 2;
     height: auto;
     background-color: orange;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 5px 0px 0px;
 }
 
 #downleft .item {
@@ -66,16 +66,16 @@ body{
     background-color: yellow;
     border-color: black;
     border-style: solid;
-    margin: 0px 5px 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 #downright {
     flex: 5;
     height: auto;
     background-color: purple;
-    margin: 0px 0px 10px 5px;
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 5px;
 }
 
 #downright .item {
@@ -90,28 +90,44 @@ body{
     padding: 10px;
 }
 
-.iup{
+.iup {
     flex: 1;
     background-color: white;
 
     display: flex;
 }
-.iuleft{
-    flex: 3;
+.iuleft {
+    flex: 7;
     height: auto;
     background-color: red;
+
+    display: flex;
+    align-items: center;
 }
-.iumid{
-    flex: 1;
+.iumid {
+    flex: 3;
     height: auto;
     background-color: yellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
-.iuright{
-    flex: 1;
+.iuright {
+    flex: 2;
     height: auto;
     background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
-.idown{
+
+.likeButton{
+    padding: 3px 10px; 
+    background-color: yellow;
+}
+.idown {
     flex: 1;
     background-color: grey;
 }
