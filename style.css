@@ -24,7 +24,7 @@ body {
 
 #up {
     height: 70px;
-    width: 70%;
+    width: 80%;
     background-color: red;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ body {
 
 #mid {
     height: 40px;
-    width: 70%;
+    width: 80%;
     background-color: blue;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ body {
 
 #down {
     /* height: 400px; */
-    width: 70%;
+    width: 80%;
     background-color: green;
     display: flex;
     flex-direction: row;
@@ -62,11 +62,21 @@ body {
 }
 
 #downleft .item {
-    height: 150px;
+    height: auto;
     background-color: yellow;
     border-color: black;
     border-style: solid;
     margin: 0px 0px 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+#userCircle{
+    height: 100px;
 }
 
 #downright {
