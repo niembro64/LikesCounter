@@ -25,7 +25,7 @@ body {
 #up {
     height: 70px;
     width: 80%;
-    background-color: red;
+    background-color: rgb(77, 77, 77);
     display: flex;
     align-items: center;
     padding: 30px;
@@ -40,7 +40,7 @@ body {
 #mid {
     height: 40px;
     width: 80%;
-    background-color: blue;
+    background-color: rgba(109, 109, 109, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +49,7 @@ body {
 #down {
     /* height: 400px; */
     width: 80%;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
     display: flex;
     flex-direction: row;
 }
@@ -57,13 +57,13 @@ body {
 #downleft {
     flex: 2;
     height: auto;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0);
     margin: 0px 5px 0px 0px;
 }
 
 #downleft .item {
     height: auto;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
     border-color: black;
     border-style: solid;
     margin: 0px 0px 10px 0px;
@@ -82,7 +82,7 @@ body {
 #downright {
     flex: 5;
     height: auto;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0);
     display: flex;
     flex-direction: column;
     margin: 0px 0px 0px 5px;
@@ -90,7 +90,7 @@ body {
 
 #downright .item {
     height: 100px;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0);
     margin: 0px 0px 10px 0px;
     border-color: black;
     border-style: solid;
@@ -102,14 +102,14 @@ body {
 
 .iup {
     flex: 1;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 
     display: flex;
 }
 .iuleft {
     flex: 7;
     height: auto;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
 
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ body {
 .iumid {
     flex: 3;
     height: auto;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
 
     display: flex;
     align-items: center;
@@ -126,7 +126,7 @@ body {
 .iuright {
     flex: 2;
     height: auto;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
 
     display: flex;
     align-items: center;
@@ -135,9 +135,9 @@ body {
 
 .likeButton{
     padding: 3px 10px; 
-    background-color: yellow;
+    background-color: yellow
 }
 .idown {
     flex: 1;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0);
 }
