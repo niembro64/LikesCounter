@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    border-radius: 2px;
 }
 
 #startStuff {
@@ -21,6 +22,8 @@
     display: flex;
     align-items: center;
     padding: 30px;
+    border-color: black;
+    border-style: solid;
 }
 
 #up h1 {
@@ -36,20 +39,40 @@
 }
 
 #down {
-    height: 400px;
+    /* height: 400px; */
     background-color: green;
     display: flex;
     flex-direction: row;
 }
 
 #downleft {
-    flex: 1;
-    height: 300px;
+    flex: 2;
+    height: auto;
     background-color: orange;
+    margin: 0px 0px 10px 0px;
+}
+
+#downleft .item {
+    height: 150px;
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    margin: 0px 5px 10px 0px;
 }
 
 #downright {
-    flex: 2;
-    height: 100px;
+    flex: 5;
+    height: auto;
     background-color: purple;
+    margin: 0px 0px 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#downright .item {
+    height: 100px;
+    background-color: orange;
+    margin: 0px 0px 10px 0px;
+    border-color: black;
+    border-style: solid;
 }
