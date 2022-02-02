@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
- 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
- 
-#startStuff{
+
+#startStuff {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,3 +15,41 @@
     gap: 10px;
 }
 
+#up {
+    height: 70px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#up h1 {
+    color: white;
+}
+
+#mid {
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#down {
+    height: 400px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+#downleft {
+    flex: 1;
+    height: 300px;
+    background-color: orange;
+}
+
+#downright {
+    flex: 2;
+    height: 100px;
+    background-color: purple;
+}
